@@ -5,7 +5,7 @@ class AbstractDiary(ABC):
         pass
     @abstractmethod
     def get_summary(self):
-            pass
+        pass
     @abstractmethod
     def get_author(self):
-            pass
+        pass
