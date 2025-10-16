@@ -3,9 +3,9 @@ class AbstractDiary(ABC):
     @abstractmethod
     def get_date(self):
         pass
-@abstractmethod
-def get_summary(self):
-        pass
-@abstractmethod
-def get_author(self):
-        pass
+    @abstractmethod
+    def get_summary(self):
+            pass
+    @abstractmethod
+    def get_author(self):
+            pass
