@@ -1,14 +1,14 @@
 from diaries.DiarySample import DiarySample
-from diaries.KaneiwaDiary import DiarySample
+from diaries.KaneiwaDiary import KaneiwaDiary
 from diaries.KannouDiary import KannouDiary
-from diaries.NomuraDiary import DiarySample
+from diaries.NomuraDiary import NomuraDiary
 from diaries.ShutoDiary import ShutoDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(), 
-           DiarySample(), 
+           KaneiwaDiary(), 
            KannouDiary(), 
-           DiarySample(), 
+           NomuraDiary(), 
            ShutoDiary(), ]
 
 
