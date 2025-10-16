@@ -8,4 +8,4 @@ class ShutoDiary(AbstractDiary):
         return "なにもない一日だった"
     
     def get_author(self):
-        return "Sample"
+        return "石田柊人"
